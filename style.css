@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: #fff;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #0af;
+  text-decoration: none;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-image: url('https://via.placeholder.com/1200x400');
+  background-size: cover;
+  background-position: center;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #0af;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+#heroes {
+  padding: 40px;
+  background-color: #1a1a1a;
+}
+
+.hero-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-card {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+#news, #download {
+  padding: 40px;
+  background: #121212;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+}
